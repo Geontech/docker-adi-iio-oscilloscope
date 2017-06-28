@@ -1,4 +1,4 @@
 #
 #!/bin/bash
 #
-docker build -t iio-osc .
+docker build -t geontech/adi-iio-oscilloscope .
