@@ -14,7 +14,7 @@ RUN apt-get -y install bison flex cmake git xdg-utils \
   libusb-1.0-0-dev libserialport-dev libavahi-client-dev \
   libavahi-common-dev libgtk2.0-dev libgtkdatabox-dev \
   libmatio-dev libfftw3-dev libcurl4-openssl-dev \
-  libjansson-dev
+  libjansson-dev libcanberra-gtk-module packagekit-gtk3-module
 
 # Install libiio
 RUN ./install_libiio.sh
